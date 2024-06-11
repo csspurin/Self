@@ -1,0 +1,23 @@
+//- block content_text
+include ../text/content_text
+
+//-產品展示數量
+- var productsnumber = 7
+
+doctype html
+html(class="no-js")
+  head
+    <?php include "_tw_head.php"?>
+    title
+  body
+    //- <?php include "_loading.php" ?>
+    //  選單
+    ='\n'
+    <?php include "_tw_nav.php" ?>
+    //  輪播  
+    //- include ../includes/_swiper-aos
+    //  內容 
+    include ../body/index-section
+    ='\n'
+    //   頁腳
+    <?php include "_tw_footer.php"?>

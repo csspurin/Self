@@ -1,0 +1,65 @@
+include ../text/content_text
+include ../text/web_text
+
+main.site-content(role='main')
+    section.topBanner.d-flex.full-screen(id=navMenu[0].eng)
+      .title--style
+        h1.d-flex.flex-column.flex-sm-row.justify-content-center.align-items-center(data-splitting) Web  Design  Portfolio
+      img.thumbnail(src='images/banner.png', alt='banner')
+      img.thumbnailbg(src='images/banner.jpg', alt='banner')
+
+      include ../includes/wave
+
+    section(id=navMenu[1].eng)
+      #work-container(style='width: 500%;')
+        -for(var i=0 ; i < 5 ; i++) 
+          -if(i ==0)
+            article.work(id="work"+(i+1) )
+              div(class="box"+(i+1))
+              
+              .container
+                .row
+                  .col-12.col-md-2.col-lg-1
+
+                  .col-12.col-md-4.col-lg-4
+                    .title.w100(data-splitting) 
+                        h3.cntitle 關於我
+                        h3.enTitle about me
+                    article
+                      p.about__info(data-splitting) 我是張琬琳，擁有7年網頁設計資歷，擁有獨立切版能力，實際完成超過80個RWD網頁設計專案，並熟悉Pug/Sass/ bootstrap等框架與預處理語言，具備基本的JavaScript與 jQuery撰寫能力，熱衷於學習與挑戰新技術，目前主要學習 vue3+vite，未來想朝向資深前端設計師的方向邁進。
+                  .col-md-1
+                  .col-md-5
+                      figure.about__img(data-aos="fade-down"  data-aos-delay="300"  data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="1000")
+                        img(src="images/img.jpg")
+          -else
+            article.work.d-flex(id="work"+(i+1) )
+              div(class="box"+(i+1))
+              
+              .container
+                .row
+                  -if(i==1)
+                      .title 
+                        h3.cntitle 作品集
+                        h3.enTitle Portfolio
+                  -for( var x=0 ; x < webList.length ; x++)
+                    -if(i==webList[x].number) 
+                      .col-12.col-lg-6.mb-3 
+                          figure.work__img(class="img"+x )
+                            img(src="images/"+webList[x].img+".jpg") 
+                          .work__info
+                            p.work__title #{webList[x].title}
+                            a.darksoul-hover-fill-button1(href=webList[x].link target="_blank")
+                              .color-fill-1
+                              p view link
+
+             
+
+    section.full-screen.d-flex(id=navMenu[2].eng)
+      .title 
+        h3.cntitle 聯絡我
+        h3.enTitle CONTACT ME
+      a.darksoul-hover-fill-button2(href="mailto:lotanin1997@gmail.com")
+        .color-fill-2
+        p SEND MAIL
+
+#workbg

@@ -1,0 +1,150 @@
+//- 選單分類
+include productslist/_normal
+
+//- head公司名稱設定
+//-author:'公司名字 後加點描述',
+//- copyright:'公司名字',
+//- description:'公司描述',
+//- keywords:'關鍵字',
+//- url:'網址(最後斜線) http://www.tweasywork.com/',
+//- title記得檢查加產品分類 PHP echo
+-
+  var headTitle = {
+      author:'',
+      copyright:'',
+      description:'',
+      keywords:'',
+      url:'',
+      index:'',
+
+  }
+
+  //- 各選單名稱與連結
+-
+  var navMenu = [{
+        eng:'about',
+        url:'work1',
+        name:'關於我',
+        dropdown:'false',
+        dropdownUrl:['company',],
+        dropdownNavName:[''],
+        class:''
+  },{
+        eng:'work',
+        url:'work2',
+        name:'作品集',
+        dropdown:'false',
+        dropdownUrl:['work',],
+        dropdownNavName: productsClass,
+        class:''
+        
+  },{
+        eng:'contact',
+        url:'contact',
+        name:'聯絡我',
+        dropdown:'false',
+        dropdownUrl:'',
+        dropdownNavName:[''],
+        class:''
+  }]
+
+
+//- 頁腳公司資訊
+//- telLink 的格式 +886-2-3278918 / +886-918******
+-
+  var footerInfo = {
+      tel:'電話號碼',
+      telLink:'', 
+      fax:'傳真號碼',
+      email:'信箱',
+      emailLink:'信箱無分隔號',
+      address:'地址'
+  }
+  
+-
+  var otherext = {
+      back:'back',
+      productsMobile:'請選擇一個分類',
+      search:'請輸入產品名稱或序號',
+      language:['繁中','EN'],
+      bannerEn:'',
+      bannerEn2:'',
+      bannerText:'',
+
+      indexNews:[
+        {
+          date:'2023/07/30',
+          title:'2023 高雄自動化工業展'
+        },{
+          date:'2023/07/30',
+          title:'2023 台北國際工具機展(TIMTOS)'
+        },{
+          date:'2022/01/01',
+          title:'2022 日本工具機展'
+        },
+      ],
+
+      videoClass:[
+      {
+        videoName:'影片名稱1',
+        videolink:'O538Y38gtHU'
+      },{
+        videoName:'影片名稱2',
+        videolink:'O538Y38gtHU'
+      },{
+        videoName:'影片名稱3',
+        videolink:'O538Y38gtHU'
+      },
+    
+      ],
+      color:[
+      {
+      one:'white ',
+      two:'black'
+      },{
+      one:'white ',
+      two:'red'
+      },{
+      one:'white ',
+      two:'brown'
+      },{
+      one:'white ',
+      two:'green'
+      },{
+      one:'white ',
+      two:'pink'
+      },
+      ]
+  }
+
+
+
+//- 輪播張數
+- var carouselNum = 2
+- 
+  var carousel=[{
+    position:'carousel-text--right',
+    img0:'slick00_l_0',
+    img1:'slick00_l_1',
+    img2:'slick00_l_2',
+    },{
+    position:'carousel-text--left',
+    img0:'slick00_l_0',
+    img1:'slick00_l_1',
+    img2:'slick00_l_2',
+    }]
+//- 所有使用的 JS
+-
+  var scriptSrc = [
+ {
+      scriptName:'basic-main',
+      scriptChinfo:'主要控制語法',
+      scriptPath:'js',
+      fileName:'index.bundle.js'
+  }, {
+      scriptName:'basic-main',
+      scriptChinfo:'主要套件語法',
+      scriptPath:'js',
+      fileName:'pluging.bundle.js'
+  }
+  ]

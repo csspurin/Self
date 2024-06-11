@@ -1,0 +1,8 @@
+//- block content_text
+include content_text
+
+
+
+each allScript in scriptSrc
+   - for (var n = 0; n < allScript.length; n++)
+   script( src= "assets/" + allScript.scriptPath + "/" + allScript.fileName charset="utf-8" )

@@ -1,0 +1,41 @@
+
+@mixin a-link($a-display,$a-fontcolor,$a-hoverfont) {
+
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    color: $a-fontcolor;
+    display: $a-display;
+    &:hover{
+      text-decoration: none;
+      transition: 0.3s;
+      color: $a-hoverfont;
+    }
+
+}
+@mixin a-link-bg($a-display,$a-bgcolor,$a-fontcolor,$a-hoverbg,$a-hoverfont) {
+
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+    background-color: $a-bgcolor;
+    color: $a-fontcolor;
+    display: $a-display;
+
+
+    &:hover{
+      text-decoration: none;
+      transition: 0.3s;
+      background-color: $a-hoverbg;
+      color: $a-hoverfont;
+    }
+
+}
+
+@mixin a-link-ab{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

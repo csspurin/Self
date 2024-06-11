@@ -1,0 +1,37 @@
+//- block content_text
+include ../text/content_text
+
+meta(charset="utf-8")
+meta(name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1, user-scalable=no")
+meta(http-equiv="x-ua-compatible" content="ie=edge")
+
+meta(name="author" content=headTitle.author)
+meta(name="copyright" content=headTitle.copyright)
+meta(name="description" content=headTitle.description)
+meta(name="keywords" content=headTitle.keywords)
+
+//  Twitter Card data 
+meta(name="twitter:card" content=headTitle.author)
+meta(name="twitter:site" content=headTitle.url)
+meta(name="twitter:title" content=headTitle.author)
+meta(name="twitter:description" content=headTitle.description)
+meta(name="twitter:creator" content=headTitle.keywords)
+// Twitter summary card with large image must be at least 280x150px 
+meta(name="twitter:image:src" content=headTitle.url+"images/fbbanner_1000_625.jpg")
+
+// Open Graph data 
+meta(property="og:title" content=headTitle.author)
+meta(property="og:type" content="website")
+meta(property="og:url" content=headTitle.url)
+meta(property="og:image" content=headTitle.url+"images/fbbanner_1000_625.jpg")
+meta(property="og:site_name" content=headTitle.copyright)
+meta(property="og:description" content=headTitle.description)
+
+link(rel="shortcut icon" href="images/favicon.png")
+//- link(rel="preload" href="assets/css/screen.css" as="style" onload="this.onload=null;this.rel='stylesheet'"   )
+//- link(rel="preload" href="assets/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'"  )
+link(rel="stylesheet" href="assets/css/screen.css" as="style")
+link(rel="stylesheet" href="assets/css/pluging.css" as="style")
+link(rel="stylesheet" href="assets/css/style.css" as="style")
+link(rel="apple-touch-icon" href="images/apple-touch-icon.png")
+link(rel="canonical" href=headTitle.url)

@@ -1,0 +1,88 @@
+@use "_import" as *;
+@keyframes fadeInDown {
+    from {
+        opacity:0;
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+        -o-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+    to {
+        opacity:1;
+        -webkit-transform: translatey(0);
+        -moz-transform: translatey(0);
+        -o-transform: translatey(0);
+        transform: translatey(0);
+    }
+}
+.fade-down {
+    -webkit-animation-name: fadeInDown;
+    -moz-animation-name: fadeInDown;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+
+.navbar-mobile{
+    display: block;
+
+    @include media-breakpoint-up(lg) { //992
+        display: none;
+     }
+
+     a.navbar-brand {
+        max-width: 150px;
+        padding: 0;
+        margin: 0;
+    }
+}//navbar-mobile
+
+.offcanvas-start {
+  // position: relative;
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: 300ms ease all;
+  -o-transition: 300ms ease all;
+  transition: 300ms ease all;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.offcanvas-start.right.active {
+  -webkit-transform: translate(-250px, 0);
+  -ms-transform: translate(-250px, 0);
+  -o-transform: translate(-250px, 0);
+  transform: translate(-250px, 0);
+  -webkit-transform: translate3d(-250px, 0, 0);
+  transform: translate3d(-250px, 0, 0);
+}
+
+/********************************/
+
+.navbar-pc{
+    display: none;
+
+    @include media-breakpoint-up(lg) { //992
+        display: block;
+        .dropdown:hover>.dropdown-menu {
+            display: block;
+          }
+
+          .dropdown>.dropdown-toggle:active {
+            /*Without this, clicking will make it sticky*/
+              pointer-events: none;
+          }
+    }
+}//.navbar-pc

@@ -1,0 +1,48 @@
+@use "_import" as *;
+
+body{
+  font-family: arial, '微軟正黑體';
+  overflow-wrap: break-word;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+  }
+}
+a{
+  text-decoration: none;
+    @include a-link(inline-block,$main-text-a-color,$main-text-a-color-hover);
+   &:focus{
+     outline: none;
+   }
+}
+button{
+  &:focus{
+    outline: none;
+  }
+}
+input{
+
+}
+p,h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+main.wrapper{
+  position: relative;
+  z-index: 0;
+  max-width: 1920px;
+  margin: auto;
+  background-color: #fbfbfb;
+}
+img {
+      aspect-ratio: attr(width) / attr(height);
+      max-width: 100%;
+      height: auto;
+}

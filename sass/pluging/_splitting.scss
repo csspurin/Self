@@ -1,0 +1,30 @@
+
+// [data-scroll] {
+//     transition: opacity 1s;
+//   }
+//   [data-scroll="in"] {
+//     opacity: 1;
+//   }
+//   [data-scroll="out"] {
+//     opacity: 0;
+//   }
+
+
+.splitting {
+    .char {
+        animation: slide-in .6s cubic-bezier(.5, 0, .5, 1) both;
+        animation-delay: calc(3ms * var(--char-index) + 1000ms );
+      }
+  }
+  
+
+  @keyframes slide-in {
+    from {
+      transform: translateY(1.5em);
+      opacity: 0;
+    }
+  }
+
+
+
+  

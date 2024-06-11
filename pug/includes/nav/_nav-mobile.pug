@@ -1,0 +1,18 @@
+include ../../text/content_text
+
+nav.navbar.fixed-top.navbar-mobile
+  .container
+    button.navbar-toggler(type='button', data-bs-toggle='offcanvas', data-bs-target='#offcanvasNavbar', aria-controls='offcanvasNavbar', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+
+    //- -.offcanvas-start 左邊  offcavas-end 右邊
+    #offcanvasNavbar.offcanvas.offcanvas-start(tabindex='-1', aria-labelledby='offcanvasNavbarLabel')
+      .offcanvas-header
+        h5#offcanvasNavbarLabel.offcanvas-title #{headTitle.author}
+        button.btn-close(type='button', data-bs-dismiss='offcanvas', aria-label='Close')
+      .offcanvas-body
+        ul.navbar-nav.justify-content-end.flex-grow-1.pe-3
+          each nav in navMenu
+                li 
+                  a.nav-link(href='#'+nav.url title=nav.name) #{nav.name} 
+

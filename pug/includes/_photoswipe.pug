@@ -1,0 +1,41 @@
+include ../text/content_text
+
+style. 
+  .pswp__custom-caption {
+  background: rgba(75, 150, 75, 0.75);
+  font-size: 16px;
+  color: #fff;
+  width: calc(100% - 32px);
+  max-width: 400px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  transform: translateX(-50%);
+  }
+  .pswp__custom-caption a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .hidden-caption-content {
+    display: none;
+  }
+
+ #gallery--with-custom-caption.pswp-gallery.pswp-gallery--with-caption
+    .pswp-gallery__item
+      a(href='https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg', data-pswp-width='1669', data-pswp-height='2500', target='_blank')
+        img(src='https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg', alt='Caption 1')
+      .hidden-caption-content
+        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        a(href='https://example.com', target='_blank', rel='nofollow') Test link &rarr;
+    .pswp-gallery__item
+      a(href='https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg', data-pswp-width='1669', data-pswp-height='2500', target='_blank')
+        img(src='https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg', alt='Caption 2')
+    .pswp-gallery__item
+      a(href='https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg', data-pswp-width='1669', data-pswp-height='2500', target='_blank')
+        img(src='https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg', alt='Caption 3')
+    .pswp-gallery__item
+      a(href='https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg', data-pswp-width='1669', data-pswp-height='2500', target='_blank')
+        img(src='https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg', alt='Caption 4')
+

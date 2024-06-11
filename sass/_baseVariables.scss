@@ -1,0 +1,30 @@
+$main-color: #b60000 !default;
+$second-color :#898989 !default;
+$third-color :#3d72b3 !default;
+
+$main-text-color: #959595 !default;
+$main-text-color-hover :#1d2088!default;
+
+$main-text-a-color: #4d4d4d !default;
+$main-text-a-color-hover :#1d2088!default;
+
+// $title-font-family: arial ,"標楷體"!default;
+$screen-1024: 1024px!default;
+$navHover: $main-color!default;
+
+// 手機板選單顏色變數
+// 子選單下拉的背景色
+$dropdown-menu-bg : #2d2d2d!default;
+// 子選單下拉的子選單背景色
+$submenu-dropdown-menu-bg: #848484 !default;
+
+$mobileOpenWidth: 220px!default;
+
+$mobilebgColor:$second-color!default;
+
+$mobileLanguage: darken($second-color,10%)!default;
+
+$a-bgcolor:#fff!default;
+$a-fontcolor:#fff!default;
+$a-hoverbg:#fff!default;
+$a-hoverfont:#fff!default;

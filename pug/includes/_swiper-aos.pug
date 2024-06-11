@@ -1,0 +1,25 @@
+include ../text/content_text
+
+.swiper.swiper-aos
+    .swiper-wrapper
+      -for (n = 0; n < carouselNum; n++)
+        .swiper-slide
+          picture
+            source(srcset="images/slick/slick0" + n + "_l.jpg" media="(min-width: 1281px)")
+            source(srcset="images/slick/slick0" + n + "_m.jpg" media="(min-width: 1280px)")
+            source(srcset="images/slick/slick0" + n + "_s.jpg" media="(max-width: 600px)")
+            //
+            //[if IE 9]></video><![endif]
+            //
+            img(src="images/slick/slick0" + n + "_m.jpg")
+            
+          .card(class=carousel[n].position)
+            .cardBox
+              h3.splitting__perspective(data-splitting)
+                span #{otherext.bannerEn}
+              p.splitting__perspective(data-splitting) 
+                span #{otherext.bannerText}
+    .swiper-pagination
+    .swiper-button-prev
+    .swiper-button-next
+

@@ -1,0 +1,332 @@
+/*!
+ * CSSPlugin 3.12.5
+ * https://gsap.com
+ *
+ * Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * CSSRulePlugin 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * CustomEase 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * Draggable 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+ */
+
+/*!
+ * EasePack 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * EaselPlugin 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * Flip 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * GSAP 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * Observer 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * PixiPlugin 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * ScrollToPlugin 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * ScrollTrigger 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * TextPlugin 3.12.5
+ * https://gsap.com
+ *
+ * @license Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * matrix 3.12.5
+ * https://gsap.com
+ *
+ * Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * paths 3.12.5
+ * https://gsap.com
+ *
+ * Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*!
+ * simpleParallax.min - simpleParallax is a simple JavaScript library that gives your website parallax animations on any images or videos, 
+ * @date: 20-08-2020 14:0:14, 
+ * @version: 5.6.2,
+ * @link: https://simpleparallax.com/
+ */
+
+/*!
+ * strings: 3.12.5
+ * https://gsap.com
+ *
+ * Copyright 2008-2024, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
+ * @author: Jack Doyle, jack@greensock.com
+*/
+
+/*! ./CSSPlugin.js */
+
+/*! ./CSSRulePlugin.js */
+
+/*! ./CustomEase.js */
+
+/*! ./Draggable.js */
+
+/*! ./EasePack.js */
+
+/*! ./EaselPlugin.js */
+
+/*! ./Flip.js */
+
+/*! ./MotionPathPlugin.js */
+
+/*! ./Observer.js */
+
+/*! ./PixiPlugin.js */
+
+/*! ./ScrollToPlugin.js */
+
+/*! ./ScrollTrigger.js */
+
+/*! ./TextPlugin.js */
+
+/*! ./gsap-core.js */
+
+/*! ./pluging/gsap__HorizontalScroll */
+
+/*! ./pluging/splitting */
+
+/*! ./utils/matrix.js */
+
+/*! ./utils/paths.js */
+
+/*! ./utils/strings.js */
+
+/*! aos */
+
+/*! aos/dist/aos.css */
+
+/*! gsap/all */
+
+/*! simple-parallax-js */
+
+/*! splitting */
+
+/*! splitting/dist/splitting-cells.css */
+
+/*! splitting/dist/splitting.css */
+
+/*! vanilla-lazyload */
+
+/*!********************!*\
+  !*** ./pluging.js ***!
+  \********************/
+
+/*!******************************!*\
+  !*** ./pluging/splitting.js ***!
+  \******************************/
+
+/*!***********************************!*\
+  !*** ../node_modules/gsap/all.js ***!
+  \***********************************/
+
+/*!************************************!*\
+  !*** ../node_modules/gsap/Flip.js ***!
+  \************************************/
+
+/*!***************************************!*\
+  !*** ../node_modules/aos/dist/aos.js ***!
+  \***************************************/
+
+/*!****************************************!*\
+  !*** ../node_modules/aos/dist/aos.css ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ../node_modules/gsap/EasePack.js ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ../node_modules/gsap/Observer.js ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ../node_modules/gsap/CSSPlugin.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ../node_modules/gsap/Draggable.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ../node_modules/gsap/gsap-core.js ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ../node_modules/gsap/CustomEase.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ../node_modules/gsap/PixiPlugin.js ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ../node_modules/gsap/TextPlugin.js ***!
+  \******************************************/
+
+/*!*******************************************!*\
+  !*** ../node_modules/gsap/EaselPlugin.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ../node_modules/gsap/utils/paths.js ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./pluging/gsap__HorizontalScroll.js ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** ../node_modules/gsap/utils/matrix.js ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** ../node_modules/gsap/CSSRulePlugin.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ../node_modules/gsap/ScrollTrigger.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ../node_modules/gsap/utils/strings.js ***!
+  \*********************************************/
+
+/*!**********************************************!*\
+  !*** ../node_modules/gsap/ScrollToPlugin.js ***!
+  \**********************************************/
+
+/*!************************************************!*\
+  !*** ../node_modules/gsap/MotionPathPlugin.js ***!
+  \************************************************/
+
+/*!***************************************************!*\
+  !*** ../node_modules/splitting/dist/splitting.js ***!
+  \***************************************************/
+
+/*!****************************************************!*\
+  !*** ../node_modules/splitting/dist/splitting.css ***!
+  \****************************************************/
+
+/*!**********************************************************!*\
+  !*** ../node_modules/splitting/dist/splitting-cells.css ***!
+  \**********************************************************/
+
+/*!*************************************************************!*\
+  !*** ../node_modules/vanilla-lazyload/dist/lazyload.min.js ***!
+  \*************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ../node_modules/simple-parallax-js/dist/simpleParallax.min.js ***!
+  \*********************************************************************/

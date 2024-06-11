@@ -1,0 +1,9 @@
+include ../../text/content_text
+nav.navbar.navbar-expand-lg.navbar-pc.fixed-top
+  .container
+    a.navbar-brand(href='index.php')
+    ul.navbar-nav.mb-2.mb-lg-0
+      each nav in navMenu
+          li.nav-item
+            a.nav-link(href='#'+nav.url ,title=nav.name, role='button')=nav.name
+

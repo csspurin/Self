@@ -1,0 +1,18 @@
+.modal.fade-down(tabindex='-1' id='modalSearch')
+  .modal-dialog.modal-fullscreen
+    .modal-content
+      .modal-header
+        span
+        h5.modal-title Search
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body
+         .col-md
+          .form-floating
+              input#floatingInput.form-control(type='email', placeholder=otherext.search)
+              label(for='floatingInput') #{otherext.search}
+         .col-md-1.ms-3
+            button.btn.btn-primary(type='button') 
+              span.icon-search.lh-sm.fs-2
+      .modal-footer
+        button.btn.btn-secondary(type='button', data-bs-dismiss='modal') Close
+        

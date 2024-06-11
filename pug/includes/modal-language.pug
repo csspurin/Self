@@ -1,0 +1,14 @@
+.modal.fade-down(tabindex='-1' id='modalLanguage' )
+  .modal-dialog.modal-fullscreen
+    .modal-content
+      .modal-header
+        span
+        h5.modal-title Language
+        button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+      .modal-body
+        ul 
+          -for(var i = 0; i < otherext.language.length; i++)
+            li 
+              a(href="#" ) #{otherext.language[i]}
+      .modal-footer
+        button.btn.btn-secondary(type='button', data-bs-dismiss='modal') Close

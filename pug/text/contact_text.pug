@@ -1,0 +1,69 @@
+//- 選單分類
+
+
+//- head公司名稱設定
+-
+  var contact_text = [{
+        type : 'select',
+        labelName: '聯絡主題',
+        id   : 'toject', 
+        red  : '',
+        select:['請選擇分類','業務諮詢','報價需求','一般連絡'],
+      },{
+        type : 'input',
+        labelName: '公司名稱',
+        id   : 'companyName',
+        red  : 'true',  
+        size : '100',
+        texttype : 'text',
+        placeholder:'請輸入您的公司名稱'
+      },{
+        type : 'input',
+        labelName: '姓名',
+        id   : 'con_name',
+        red  : 'true',  
+        size : '50',
+        texttype : 'text',
+        placeholder:'請輸入您的姓名'
+      },{
+        type : 'input',
+        labelName: '電話',
+        id   : 'con_tel',
+        red  : 'true',  
+        size : '20',
+        texttype : 'tel',
+        placeholder:'請輸入您的連絡電話'
+      },{
+        type : 'input',
+        labelName: '電子郵件',
+        id   : 'con_email',
+        red  : 'true',  
+        size : '100',
+        texttype : 'email',
+        placeholder:'請輸入您的電子郵件'
+      },{
+        type : 'input',
+        labelName: '縣市地區',
+        id   : 'con_addr',
+        red  : 'false',  
+        size : '100',
+        texttype : 'text',
+        placeholder:'請輸入您的聯絡地址'
+      },{
+        type : 'textarea',
+        labelName: '內容簡述',
+        id   : 'con_content',
+        red  : 'true',  
+        size : '1000',
+        texttype : 'email',
+        placeholder:'請輸入您的問題'
+      },{
+        type : 'checkcode',
+        labelName: '驗證',
+        id   : 'checkcode',
+        red  : 'true',  
+        size : '',
+        texttype : 'text',
+        placeholder:'點擊此處進行不是機器人驗證'
+      }
+  ]
